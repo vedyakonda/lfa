@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fullpage {
+  background-color: white;
+  width: auto;
+  margin: auto;
+}
+
+.menubar {
+  font-family: "Cormorant Garamond", serif;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+  font-color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  color: white;
+  background-color: #F4DD08;
+  align-items: center;
+  direction: column;
+  margin-top: 3%;
+  position: fixed;
+  z-index: 1;
+}
+
+#title {
+  font-family: "Cormorant Garamond", serif;
+  height: 50px;
+  width: 20%;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 5%;
+}
+
+#home {
+  color: white;
+  width: 18%;
+  padding: 1px;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+#home h2:hover {
+  color: #403F45;
+}
+
+#letters {
+  color: white;
+  width: 18%;
+  padding: 1px;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+#letters h2:hover {
+  color: #403F45;
+}
+
+.dropdown {
+  color: white;
+  width: 18%;
+  position: relative;
+  right:45px;
+  padding: 1px;
+  margin: 15px;
+  position: relative;
+  display: inline-block;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+.dropdown h2:hover {
+  color: #403F45;
+}
+button {
+  background-color: #F4DD08;
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+
+
+.dropdown-content {
+  font-family: "Cormorant Garamond", serif;
+  display: none;
+  position: absolute;
+  padding-top:25px;
+  background-color: transparent;
+  opacity: 1;
+  min-width: 1000px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-flex;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content a:hover {background-color: gray;}
+
+
+
+#other {
+  color: white;
+  width: 18%;
+  padding: 1px;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+#other h2:hover {
+  color: #403F45;
+}
+
+#aboutUs {
+  color: white;
+  width: 18%;
+  padding: 1px;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+
+#aboutUs h2:hover {
+  color: #403F45;
+}
+
+#questions {
+  color: white;
+  width: 18%;
+  padding: 1px;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+
+#questions h2:hover {
+  color: #403F45;
+}
+
+
+#text {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 175px;
+  background-image: url("https://cdn.glitch.com/43316af4-3eb3-44ec-9013-5f2934232a85%2Fthumbnails%2F43316af4-3eb3-44ec-9013-5f2934232a85-thumbnails-blm-ally.JPG?1594687604534"); 
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  font-size: 100px;
+  margin: 80px;
+  text-align: center;
+  border-right: 2px solid rgba(255,255,255,255);
+  white-space: nowrap;
+  overflow: hidden;
+ transform: translateY(-50%);
+  position:relative;
+  right: 70px;
+}
+h1{
+  text-align:justify;
+  text-justify: auto;
+}
+.anim-typewriter{
+  animation: typewriter 3s steps(27) 1s normal both,
+             blinkTextCursor 800ms steps(27) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 10.4em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: #F4DD08;}
+  to{border-right-color:gray ;}
+}
+
+.ally{
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+
+.ally2{
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.ally3{
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.summary {
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  font-size: 35px; 
+  text-align: center;
+  transition: top 2s;
+
+}
+
+.let{
+  margin: 100px;
+  padding: 20px;
+  width: 80%;
+  background-color: gray;
+}
+
+.template{
+  margin: auto;
+  padding: 20px;
+  width: 97%;
+  background-color: gray;
+}
+
+
+
+
+
+
+
+
+#t {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 175px;
+  background-color:grey;
+}
+
+#bigtitle {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 40px;
+  text-align: center;
+  
+}
+
+#button{
+  background-color: #F4DD08;
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-size-adjust: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#x{
+  background-color: #F4DD08;
+  font-size: 20px;
+  color: white;
+  width: 30%;
+  padding: 10px;
+  margin: 15px;
+}
+
+#y{
+  background-color: #F4DD08;
+  font-size: 20px;
+  color: white;
+  width: 30%;
+  padding: 10px;
+  margin: 15px;
+}
+
+#z{
+  background-color: #F4DD08;
+  font-size: 20px;
+  color: white;
+  width: 30%;
+  padding: 10px;
+  margin: 15px;
+}
+
+#letter{
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+#letter1{
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+#letter2{
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
